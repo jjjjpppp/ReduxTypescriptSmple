@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import { selectBook } from '../actions/index'
+import { selectBook } from '../actions/index.tsx'
 import { bindActionCreators } from 'redux';
 
 export class BookDetail extends Component {
